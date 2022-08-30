@@ -1,0 +1,47 @@
+header, footer{
+    display: block;
+   background-image: linear-gradient(to bottom, rgb(221, 15, 0),rgb(240, 226, 32));
+   
+}
+header h1, footer h1{
+    text-align: center;
+    font-style: oblique;
+    
+}
+ul, li{
+    color: black;
+    display: flex;
+    justify-content:space-around;
+    
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo-centro{
+    display: block;
+    margin: 0px auto;
+}
+h1{
+    text-align: center;
+    font-style: oblique;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+}
+h3{
+    text-align: center;
+    font-style: oblique;
+    font-size: 40px; 
+}
+.imagens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 10px;
+}

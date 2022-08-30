@@ -1,0 +1,80 @@
+header, footer{
+    display: block;
+   background-image: linear-gradient(to bottom, rgb(221, 15, 0),rgb(240, 226, 32));
+   
+}
+header h1, footer h1{
+    text-align: center;
+    font-style: oblique;
+    
+}
+header h2, footer h2{
+    text-align: center;
+    font-style: italic
+}
+footer p{
+    text-align: left;
+}
+
+ul, li{
+    color: black;
+    display: flex;
+    justify-content:space-around;
+    
+}
+body{
+    background-color: rgb(245, 233, 210);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-style: oblique;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+}
+h3{
+    text-align: center;
+    font-style: oblique;
+    font-size: 40px; 
+}
+h4{
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.rodape{
+    text-align: center;
+    font-style: italic;
+    
+    margin-block-start: 80px;
+    margin-inline-start: 400px;
+    margin-inline-end: 400px;
+    
+}
+.imagens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 10px;
+}
+.imagens img{
+    margin-right: 30px;
+}
+.logo-centro{
+        display: block;
+        margin: 0px auto;
+}
+.foto-index{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 10px;
+}

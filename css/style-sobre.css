@@ -1,0 +1,49 @@
+header, footer{
+    display: block;
+   background-image: linear-gradient(to bottom, rgb(221, 15, 0),rgb(240, 226, 32));
+   
+}
+header h1, footer h1{
+    text-align: center;
+    font-style: oblique;
+    
+}
+ul, li{
+    color: black;
+    display: flex;
+    justify-content:space-around;
+    
+}
+body{
+    background-color: rgb(245, 233, 210);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-style: oblique;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+}
+.imagens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.imagens img{
+    margin-right: 30px;
+}
+.logo-centro{
+        display: block;
+        margin: 0px auto;
+}
+.container{
+    display: flex;
+}
+p{
+    font-size: 20px;
+}
